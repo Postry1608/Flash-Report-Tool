@@ -74,7 +74,7 @@ with st.form("flash_report_form", clear_on_submit=False):
         inc_date = st.date_input("Date", format="DD/MM/YYYY")
         incident_type = st.radio(
             "Did an injury occur? *",
-            ["Accident", "Near Miss", "Property Damage", "Hazard / Other"],
+            ["Accident", "Incident", "Near Miss", "Hazard / Other"],
             horizontal=True,
         )
     with col2:
